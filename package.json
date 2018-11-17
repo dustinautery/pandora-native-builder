@@ -1,0 +1,14 @@
+{
+  "name": "pandora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nativefier": "^7.6.8"
+  }
+}

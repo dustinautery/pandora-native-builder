@@ -1,0 +1,23 @@
+/* site.css */
+
+/* header is draggable... */
+.region-topBar,
+.AuthHeader {
+  -webkit-app-region: drag;
+}
+
+/* but any buttons inside the header shouldn't be draggable */
+.region-topBar button,
+.region-topBar a,
+.AuthHeader a,
+.AuthHeader button {
+  -webkit-app-region: no-drag;
+}
+
+/* perhaps move some items out of way for the traffic light */
+.NavPrimary {
+  left: 9rem !important;
+}
+.AuthHeader__logo {
+  left: 6rem !important;
+}
